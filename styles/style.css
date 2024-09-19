@@ -2,14 +2,56 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+    color: #fff;
+
+}
+
+.backcolor{
+    background-color: #1f2235;
+    color: white;
+    display: flex;
+    padding: 30px; 
+    justify-content: space-between;
+
+
 }
 
 #navbar{
-    text-align: right;
+    display: flex;
+    justify-content: right;
+    padding: 30px;
     list-style-type: none;
-    text-justify: distribute-all-lines;
+    font-size: 20px;
+    line-height: normal;
+    text-indent: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+
+    
 }
-.darkblue {
-    color: midnightblue;
+.hover:hover{
+    color: red
+    
 }
+
+#amikeman{
+    margin: 80px 300px 20px 400px;
+
+}
+
+    
+#home{
+    
+    background-color: #24263b;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+    
+
+    
+
+
+
+
+
