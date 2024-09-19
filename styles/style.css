@@ -2,4 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+}
+
+#navbar{
+    text-align: right;
+    list-style-type: none;
 }
