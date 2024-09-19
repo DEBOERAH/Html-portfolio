@@ -8,4 +8,5 @@
 #navbar{
     text-align: right;
     list-style-type: none;
+    text-justify: distribute-all-lines;
 }
