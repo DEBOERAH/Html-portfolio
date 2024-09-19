@@ -44,6 +44,7 @@
     
     background-color: #24263b;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 #socialgroup{
@@ -53,7 +54,10 @@
     
     
     
-    
+}
+
+#logo{
+    background-size: 100%;
 }
 
 #socialicons{
@@ -65,14 +69,18 @@ margin-left: 200px;
 
 .symbols{ 
     padding: 10px;
+    border: 2px solid #FF0000;
+    margin: 10px;
+    border-radius: 50%;
     
-    
+
 
 }
 
 .symbols:hover{
-    color: red;
+    color: #FF0000;
 }
+
 
     
 
