@@ -35,7 +35,7 @@
 }
 
 #amikeman{
-    margin: 80px 300px 20px 400px;
+    margin: 10px 300px 20px 700px;
 
 }
 
@@ -46,6 +46,31 @@
     font-family: 'Poppins', sans-serif;
 }
 
+#socialsymbols{
+    display: flex;
+    justify-content: left;
+    padding: 30px
+    
+    
+    
+}
+
+#socialicons{
+    padding-left: 10px;
+margin-left: 200px;
+
+
+
+
+    
+
+}
+
+#symbols{
+    padding: 7px;
+   
+
+}
 
     
 
