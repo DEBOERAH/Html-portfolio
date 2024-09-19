@@ -46,30 +46,32 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#socialsymbols{
+#socialgroup{
     display: flex;
     justify-content: left;
     padding: 30px
     
     
     
+    
 }
 
 #socialicons{
-    padding-left: 10px;
+    padding-left: 60px;
 margin-left: 200px;
+ 
 
+}
 
-
-
+.symbols{ 
+    padding: 10px;
+    
     
 
 }
 
-#symbols{
-    padding: 7px;
-   
-
+.symbols:hover{
+    color: red;
 }
 
     
