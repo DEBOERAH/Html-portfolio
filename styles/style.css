@@ -6,14 +6,26 @@
 
 }
 
-.backcolor{
+/* header part */
+
+#brandlogo{
+    background-color: #1f2235;
+    padding: 10px;
+    text-align: right
+
+ 
+}
+
+.header{
     background-color: #1f2235;
     color: white;
     display: flex;
     justify-content: space-between;
     position: fixed;
-    padding: 28px 68px;
+    
     width: 100%;
+
+    
 
 
 }
@@ -32,80 +44,203 @@
 
     
 }
+
+
+ 
+    
+    
+
+
+
 .hover:hover{
-    color: red
+    color: #FF4A57
     
 }
 
-#amikeman{
-    margin: 10px 300px 20px 700px;
+#home-text{
+    padding-left: 50px;
+}
+
+.Adaeze{
+   padding-left: 20px;
+   padding-bottom: 20px;
+
+   font-size: 50px;
+   
+   
+   
+   
+}
+
+.home-container {
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.pbutton{
+    padding: 10px;
+    margin: 12px;
+    border-radius: 40px;
+    font-size: 25px;
+    border: 2px solid #FF4A57; 
+    background-color: #24263b;
+
+}
+#abutton{
+    padding: 20px 40px;
+    margin: 12px;
+    border-radius: 40px;
+    background-color: #FF4A57;
+
+
+
+    
+
+}
+
+.pbutton:hover{
+    background-color: #FF4A57;
+
+}
+
+
+
+
+#amikeman2{
+    padding-top: 10px;
+    padding-right: 40px;
+    
+    
 
 }
 
     
-#home{
+.home{
     
     background-color: #24263b;
     font-family: 'Poppins', sans-serif;
-    padding-top: 50px;
+    padding-top: 200px;
+    display: flex;
+    justify-content:space-between
+    
     
 }
+
+
 
 #socialgroup{
     display: flex;
     justify-content: left;
-    padding: 30px
+    padding: 25px
     
     
     
 }
 
-#socialgroup:hover{
-    color: #FF0000;
-}
 
 
 
-#socialicons{
-    padding-left: 60px;
-margin-left: 200px;
+
+/* #socialicons{
+    
+
  
 
-}
+} */
 
 .symbols{ 
-    padding: 10px;
-    border: 2px solid #FF0000;
-    margin: 10px;
+    padding: 15px;
+    border: 2px solid #FF4A57;
+    margin: 12px;
     border-radius: 50%;
+    font-size: 25px;
 
+}
+
+.symbols:hover{
+    background-color: #FF4A57
 
 }
 
 
 /* service section */
-#Service{
+
+#Services{
     background-color: #1f2235;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 
-
-
-
-
-/* About */
-#About{
-    background-color: #23263A;
-}
 
 .service-card{
     background-color: #23263A;
     height: 350px;
 width: 350px;
 border-radius: 24px;
-
+margin: 10px;
+padding: 25px;
 
 }
+.service-card i{
+    color: #FF4A57;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.service-card i:hover{
+    color: #fff;
+}
+
+
+.service-card:hover{
+    background-color: #FF4A57
+}
+
+.servicetop{
+    text-align: center;
+
+}
+
+#servicesh5{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    color: #FF4A57;
+}
+
+.horiline{
+   
+     border: 1px solid #FF4A57;
+margin: 20px  600px;
+border-radius: 10px;
+padding: 2px;
+background-color: #FF4A57;
+
+
+
+    
+    
+}
+
+
+
+#service-buttom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
+/* About */
+#About{
+    background-color: #23263A;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
 
 
 

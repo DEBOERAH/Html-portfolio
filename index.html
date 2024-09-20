@@ -15,8 +15,8 @@
 
 <body>
     <!-- header part -->
-    <header class="backcolor">
-        <div id="logo"><img src="./images/Amike logo.png" alt=" amike logo" id=" brand-logo">
+    <header class="header">
+        <div id="brandlogo"><img src="./images/Amike logo.png" alt=" amike logo">
         </div>
         <nav>
             <ul id="navbar">
@@ -34,8 +34,8 @@
     <!-- main part -->
     <main>
 
-        <section id="home">
-            <div>
+        <section class="home">
+            <div class="home-container">
                 <div id="socialicons">
                     <!-- social icons -->
                     <div id="socialgroup">
@@ -59,18 +59,22 @@
                 </div>
 
                 <!-- text contect -->
-                <H1>I am Adaeze Ofuani</H1>
+                <div  id="home-text" >
+                    <div>
+                        <H1 class="Adaeze">I am Adaeze Ofuani</H1>
 
-                <p>I am Jonathan,professional web bla bla bla</p>
-                <!-- cta button  -->
-                <div>
-                    <button>
-                        Portfolio
-                    </button>
+                        <p>I am Jonathan,professional web bla bla bla</p>
+                    </div>
+                    <!-- cta button  -->
+                    <div>
+                        <button class="pbutton">
+                            Portfolio
+                        </button>
 
-                    <button>
-                        <i class="fa-solid fa-play"></i>
-                    </button>
+                        <button id="abutton">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -81,22 +85,95 @@
 
         </section>
 
-                        <div id="bottombox">
-                            <div class="service-card"><i class="fa-brands fa-twitter"></i></div>
-       
+        <section id="Services">
+
+            <div class="servicetop">
+                <h5 id="servicesh5">Services</h5>
+                <h2 class="Adaeze">My Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nisi quasi ut exercitationem eligendi
+                    id dolor. </p>
+                <hr class="horiline">
+
+            </div>
+
+
+            <div id="service-buttom">
+                <div class="service-card">
+                    <i class="fa-brands fa-github"></i> </i>
+                    <h3>web Development</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+
+
+                <div class="service-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>Web Design</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+
+                </div>
+
+
+                <div class="service-card">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>Video Editing</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+
+                </div>
+
+                <div class="service-card">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+
+                </div>
+
+                <div class="service-card">
+                    <i class="fa-brands fa-apple"></i>
+                    <h3>App Developing</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+
+                </div>
+
+                <div class="service-card">
+                    <i class="fa-solid fa-image"></i>
+                    <h3>SEO Expart</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
         <section id="About">
 
-            <div>
-                <H1>About me</H1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias nam accusamus amet
+            <div class="servicetop">
+                <H1 class="Adaeze">About me</H1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias nam accusamus amet <br>
                     aspernatur
-                    eaque illum odit maiores! Nemo, nisi nobis. Modi error delectus quo quibusdam id totam veniam nemo.
+                    eaque illum odit maiores! Nemo, <br>nisi nobis. Modi error delectus quo quibusdam id totam veniam nemo.
                 </p>
+                <hr class="horiline">
             </div>
-            <div>
-                <div id="leftbox">
-                    <img src="./images/Amikeman 2.png" alt="Amikeman2">
+            <div class="home" >
+                <div id="leftbox" >
+                    <img src="./images/Amikeman 2.png" alt="Amikeman2" id="amikeman2">
                 </div>
+
                 <div id="rightbox">
                     <H2>Hi There</H2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quam illum quasi minima
@@ -119,6 +196,8 @@
                 </div>
             </div>
         </section>
+
+
         <section id="Skills">
 
             <div>
