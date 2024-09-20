@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     color: #fff;
 
@@ -13,9 +13,11 @@
     justify-content: space-between;
     position: fixed;
     padding: 28px 68px;
+    width: 100%;
 
 
 }
+
 
 #navbar{
     display: flex;
@@ -62,9 +64,7 @@
     color: #FF0000;
 }
 
-#logo{
-    
-}
+
 
 #socialicons{
     padding-left: 60px;
@@ -84,9 +84,29 @@ margin-left: 200px;
 
 
 /* service section */
-#services{
-    background-color: #1f2235
+#Service{
+    background-color: #1f2235;
 }
+
+
+
+
+
+
+/* About */
+#About{
+    background-color: #23263A;
+}
+
+.service-card{
+    background-color: #23263A;
+    height: 350px;
+width: 350px;
+border-radius: 24px;
+
+
+}
+
 
 
     
