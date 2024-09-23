@@ -10,8 +10,9 @@
 
 #brandlogo{
     background-color: #1f2235;
-    padding: 10px;
-    text-align: right
+    padding: 20px;
+    text-align: right;
+    margin: ;
 
  
 }
@@ -24,9 +25,6 @@
     position: fixed;
     
     width: 100%;
-
-    
-
 
 }
 
@@ -42,7 +40,6 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500px;
 
-    
 }
 
 
@@ -107,8 +104,12 @@
 
 
 #amikeman2{
-    padding-top: 10px;
+    
     padding-right: 40px;
+    padding-bottom: 50px;
+    margin-left: 50;
+
+    
     
     
 
@@ -168,6 +169,7 @@
 #Services{
     background-color: #1f2235;
     font-family: 'Poppins', sans-serif;
+    padding-top: 90px;
 
 }
 
@@ -238,8 +240,40 @@ background-color: #FF4A57;
 #About{
     background-color: #23263A;
     font-family: 'Poppins', sans-serif;
-    padding-top: 50px;
+    padding-top: 90px;
 }
+
+#rightboxabout{
+    padding-top: 70px 40px;
+    margin: 60px;
+
+}
+
+.aboutdown{
+    background-color: #24263b;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 70px;
+
+}
+
+
+.detailsabout{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+
+}
+
+.infodet{
+    color: #FF4A57;
+
+
+}
+
 
 
 
