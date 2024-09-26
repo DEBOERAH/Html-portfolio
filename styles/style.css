@@ -55,12 +55,12 @@
 }
 
 #home-text{
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
 .Adaeze{
-   padding-left: 20px;
-   padding-bottom: 20px;
+   /* /* padding-left: 20px; */
+   padding-bottom: 20px; 
 
    font-size: 50px;
    
@@ -70,8 +70,9 @@
 }
 
 .home-container {
-    padding-left: 100px;
-    padding-top: 150px;
+    /* padding-left: 10px; */
+    padding-top: 170px;
+    
 }
 
 .pbutton{
@@ -122,7 +123,8 @@
     font-family: 'Poppins', sans-serif;
     padding-top: 200px;
     display: flex;
-    justify-content:space-between
+    justify-content:space-between;
+    padding: 100px;
     
     
 }
@@ -132,7 +134,7 @@
 #socialgroup{
     display: flex;
     justify-content: left;
-    padding: 25px
+    /* padding: 25px */
     
     
     
@@ -162,6 +164,12 @@
     background-color: #FF4A57
 
 }
+#symbols i:hover{
+    color: #fff;
+    
+
+
+}
 
 
 /* service section */
@@ -169,7 +177,7 @@
 #Services{
     background-color: #1f2235;
     font-family: 'Poppins', sans-serif;
-    padding-top: 90px;
+    padding: 100px;
 
 }
 
@@ -190,13 +198,16 @@ padding: 25px;
     padding: 7px;
 }
 
-.service-card i:hover{
-    color: #fff;
-}
+
+
 
 
 .service-card:hover{
-    background-color: #FF4A57
+    background-color: #FF4A57;
+    i {
+        color: #fff;
+    }
+    
 }
 
 .servicetop{
@@ -204,7 +215,7 @@ padding: 25px;
 
 }
 
-#servicesh5{
+.servicesh5{
     text-align: center;
     font-size: 20px;
     padding: 15px;
@@ -227,7 +238,7 @@ background-color: #FF4A57;
 
 
 
-#service-buttom {
+.service-buttom {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -240,7 +251,8 @@ background-color: #FF4A57;
 #About{
     background-color: #23263A;
     font-family: 'Poppins', sans-serif;
-    padding-top: 90px;
+    padding: 100px;
+
 }
 
 #rightboxabout{
@@ -263,16 +275,185 @@ background-color: #FF4A57;
 .detailsabout{
     padding-top: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: initial;
     padding-right: 120px;
 
+}
+
+.nameA {
+    width: 60%;
 }
 
 .infodet{
     color: #FF4A57;
 
+}
+
+#Skills{
+    background-color: #1f2235;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
 
 }
+.servicesh6{
+    text-align: left;
+    font-size: 20px;
+    padding: 15px;
+    color: #FF4A57;
+}
+.Ada{
+    padding-left: 20px;
+   padding-bottom: 20px;
+
+   font-size: 50px;
+   
+}
+#rightskill{
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 70px;
+}
+
+#node{
+    border: 1px solid #FF4A57;
+    background-color: #FF4A57;
+    padding: 2px 250px;
+    margin-left: 15px;
+}
+
+
+
+.nodetext{
+    text-align: left;
+    padding: 15px;
+}
+
+#python{
+    border: 1px solid #FF4A57;
+    background-color: #FF4A57;
+    padding: 2px 150px;
+    margin-left: 15px;
+    margin-right: 20px;
+
+}
+#laravel{
+    border: 1px solid #FF4A57;
+    background-color: #FF4A57;
+    padding: 2px 200px;
+    margin-left: 15px;
+
+}
+#seo{
+    border: 1px solid #FF4A57;
+    background-color: #FF4A57;
+    padding: 2px 230px;
+    margin-left: 15px;
+    margin-right: 17px;
+
+}
+#Portfolio{
+    background-color: #23263A;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-bottom: 70px;
+
+}
+.portbutton{
+    padding: 10px;
+    margin: 12px;
+    border-radius: 40px;
+    font-size: 25px;
+     
+    background-color: #24263b;
+    
+}
+.portbutton:hover{
+    background-color: #FF4A57;
+
+}
+#plan{
+    padding-top: 50px;
+}
+.class{
+    display: flex;
+}
+#porticons{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.basi{
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 60px;
+    background-color: #23263A;
+    border: 2px solid #FF4A57;
+    margin: 5px;
+    border-radius: 5%;
+
+    
+
+}
+#basi{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0 !important;
+    padding: 60px;
+    background-color: #23263A;
+    border: 2px solid #FF4A57;
+    margin: 5px;
+    border-radius: 5%;
+
+    
+
+}
+.wei{
+    font-size: 50px;
+    flex-direction: column-reverse;
+    
+    
+}
+
+#recomended{
+    background-color: #FF4A57;
+    width: auto;
+    height: auto;
+    padding: 0px 15px;
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
